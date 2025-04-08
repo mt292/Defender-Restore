@@ -22,4 +22,4 @@ if ($svc.Status -eq 'Running') {
     Write-Host "[!] Defender service did not start. Check binary path or logs." -ForegroundColor Yellow
 }
 
-Write-Host "[*] Done."
+Write-Host "[*] Done." -ForegroundColor Cyan
